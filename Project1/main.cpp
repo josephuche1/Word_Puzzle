@@ -1,4 +1,3 @@
-//Name:Uche Joseph Ugochukwu
 //Word Puzzle
 
 #include "functions.h" // importing functions from external file
