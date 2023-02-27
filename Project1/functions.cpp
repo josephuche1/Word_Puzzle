@@ -4,7 +4,7 @@
 void puzzle(int x, char difficulty[len][len], int& grid_size) { 
 	int i, j;
 	char letter;
-	if (x == 1) {
+	if (x == 1) { //easy
 		for (i = 0; i < 6; i++) {
 			for (j = 0; j < 6; j++) {
 				letter = 65 + rand() % 26;
@@ -15,7 +15,7 @@ void puzzle(int x, char difficulty[len][len], int& grid_size) {
 		}
 		grid_size = 6;
 	}
-	else if (x == 2) {
+	else if (x == 2) {  //medium
 		for (i = 0; i < 14; i++) {
 			for (j = 0; j < 14; j++) {
 				letter = 65 + rand() % 26;
@@ -26,7 +26,7 @@ void puzzle(int x, char difficulty[len][len], int& grid_size) {
 		}
 		grid_size = 14;
 	}
-	else if (x == 3) {
+	else if (x == 3) {  //hard
 		for (i = 0; i < 20; i++) {
 			for (j = 0; j < 20; j++) {
 				letter = 65 + rand() % 26;
